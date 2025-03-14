@@ -1,0 +1,122 @@
+body {
+  background-image: url('../images/kali.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Work Sans', serif;
+}
+
+.title-text {
+  color: #c7ced2;
+  background-color: #2c4755;
+  width: 680px;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 4px solid #2c4755;
+}
+.intro-text {
+  color: #c7ced2;
+  background-color: #2c4755;
+  font-size: 20px;
+  border: 4px solid #2c4755;
+}
+
+.special-color {
+  color: #10cab7;
+  font-size: 20px;
+}
+.sections {
+  background-color: #2c4755;
+  border: 15px solid #2c4755;
+  width: 400px;
+  border-radius: 6px;
+}
+.sections a {
+  color: #c7ced2;
+  line-height: 3px;
+}
+.special-colored {
+  letter-spacing: 9px;
+  color: #10cab7;
+}
+.sections p .special {
+  text-decoration: line-through;
+}
+.card-1 {
+  background-color: #2c4755;
+  border: 15px solid #2c4755;
+  width: 400px;
+  border-radius: 6px;
+}
+.card-1 h2 {
+  color: #c7ced2;
+  font-weight: bold;
+  border-bottom: 10px solid #2c4755;
+  font-size: 20px;
+}
+.card-1 .image img {
+  width: 100%;
+  height: 150px;
+  background-color: #eeeeee;
+  border-bottom: 15px solid #2c4755;
+  border-radius: 3px;
+}
+.card-1 p {
+  color: #c7ced2;
+  word-spacing: 3px;
+  border-bottom: 10px solid #2c4755;
+}
+
+.card-1 div button {
+  width: 400px;
+  height: 40px;
+  border: none;
+  background-color: #7028f1;
+}
+.card-1 div button a {
+  color: #fff;
+  text-transform: uppercase;
+}
+mark {
+  background-color: #fe9e6c;
+}
+.subscribe {
+  background-color: #2c4755;
+  border: 15px solid #2c4755;
+  width: 400px;
+  border-radius: 6px;
+}
+.subscribe .subscribe-text {
+  background-color: #eeeeee;
+  border-radius: 2px;
+}
+.subscribe .subscribe-text p {
+  color: #000000;
+  font-size: 25px;
+  font-style: italic;
+}
+.subscribe div input {
+  border: none;
+  width: 70%;
+  height: 30px;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 19px;
+}
+.subscribe div button {
+  width: 25%;
+  height: 32px;
+  border: none;
+
+  background-color: #7028f1;
+  border-radius: 3px;
+}
+.subscribe div button a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}

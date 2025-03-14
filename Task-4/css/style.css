@@ -1,0 +1,113 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Open Sans", serif;
+  color: #2c4755;
+}
+.intro {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.intro h1 {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  color: #024caa;
+  font-size: 20px;
+}
+.intro p {
+  font-size: 35px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.container {
+  width: 1000px;
+  margin: 0px auto;
+  overflow: auto;
+}
+.container .card {
+  width: 300px;
+  float: left;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+.special-card {
+  margin: 0 44px;
+}
+.container .card h2 {
+  text-transform: uppercase;
+}
+.container .card .more-info {
+  color: #4d4c4c;
+  font-size: 12px;
+}
+.container .card .price {
+  font-size: 30px;
+  font-weight: 700;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid #2c4755;
+  margin: 0 auto;
+  word-spacing: 48px;
+}
+.container .card .price span {
+  line-height: 55px;
+}
+.container .card .info {
+  margin: 30px 0;
+}
+.container .card .info p {
+  line-height: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+.container .card .info p span {
+  word-spacing: 20px;
+  color: #024caa;
+  font-size: 20px;
+}
+.container .card .info .special {
+  color: #3d3d3d3a;
+}
+.container .card:hover {
+  border: 2px solid #024caa;
+}
+.btn button {
+  width: 200px;
+  margin: 20px auto;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background-color: #024caa;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.btn button a {
+  color: #ffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn button:hover {
+  background-color: #091057;
+}
+.container .card h2:hover {
+  color: #024caa;
+}
+
+.container .card:hover {
+  background-color:#e7e7e6;
+}
+.container .card .price:hover {
+  border-color: #024caa;
+}
+.container .card .info .special:hover {
+  color: rgb(231, 33, 33);
+}
+hr {
+  width: 300px;
+  border: 1px solid #608bc4;
+}

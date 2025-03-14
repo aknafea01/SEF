@@ -1,0 +1,64 @@
+body {
+    background-color: #EEEEEE;
+}
+h1 {
+    background-color: #194794;
+    width: 400px;
+    color: #FFFFFF  ;
+}
+input {
+    background-color: #D8E9F0;
+    height: 25px;
+    width: 192px;
+    border: 1px solid #194794;
+    font-size: 16px;
+}
+textarea {
+    border: 1px solid #194794;
+    font-size: 16px;
+}
+p {
+    background-color: #194794;
+    width: 400px;
+}
+mark {
+    height: 25px;
+    font-size: 25px;
+    background-color: #D8E9F0;
+}
+.special {
+    background-color: #FFFFFF;
+    
+}
+button {
+
+    width: 150px;
+    height: 45px;
+    border-radius: 11px;
+    border: none;
+    font-size: 16px;
+}
+.btn-1 {
+    background-color: #032B43;
+    color: #fff;
+}
+.btn-2 {
+
+    background-color: #2E2D2B;
+    color: #FFFFFF;
+}
+.btn-3 {
+    background-color: #194794;
+    color: #FFFFFF;
+}
+.p-2 {
+    color: #FFFFFF;
+    font-size: 25PX;
+}
+span {
+    color: #FFE74C;
+}
+.sp-1 {
+    color: #2E2D2B;
+    font-size: 45px;
+}

@@ -1,0 +1,121 @@
+body {
+  background-image: url(../images/image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  /* height: 3000px;     */
+}
+.header {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.header .logo {
+  position: absolute;
+  top: -15px;
+  left: 120px;
+}
+.header .logo img {
+  width: 120px;
+}
+.header .links {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  right: -1200px;
+  top: 15px;
+}
+.header .links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.header .links li a {
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  height: 30px;
+}
+.header .links li a:focus {
+  color: #92e1e4;
+  border-bottom: 1px solid #d2d2ae;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 1000;
+}
+h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+h1 a:active {
+  color: rgb(243, 108, 108);
+}
+.line {
+  background-color: rgba(255, 255, 255, 0.247);
+  width: 290px;
+  margin: -22px auto 250px;
+  height: 4px;
+}
+.parent {
+  width: 1000px;
+  margin: 200px auto 0;
+}
+.card {
+  width: 300px;
+  height: 170px;
+  background-color: #3f747a;
+  opacity: 0.9;
+  border-radius: 15px;
+  float: left;
+  margin-bottom: 25px;
+}
+.card:hover {
+  opacity: 1;
+}
+.special-card {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.card i {
+  color: #a2b8bb;
+  display: inline-block;
+  margin: 10px 15px;
+  font-size: 25px;
+}
+.card i:hover {
+  color: #ffffff;
+}
+.card h2 {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 25px;
+  word-spacing: -1px;
+}
+.card p {
+  margin-left: 55px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #eeeeee;
+  word-spacing: 4px;
+}
+.card p span {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #edeef18f;
+}
+.card p span:hover {
+  color: #ffffff;
+}

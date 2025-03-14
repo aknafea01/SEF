@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Open Sans", serif;
+}
+.header {
+  width: 100%;
+  height: 6vh;
+  background-color: #122C34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.header .links {
+  overflow: hidden;
+}
+.header .links ul{
+  float: left;
+  margin-left: 10px;
+}
+.header  ul li{
+  display: inline-block;
+  margin-left: 60px;
+}
+.header ul li a {
+  color: #ffffff;
+  line-height: 6vh;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.header ul .sale {
+  background-color: red;
+  height: 6vh;
+  padding: 10px;
+}
+.landing {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/wallpaperflare.com_wallpaper\ \(3\).jpg);
+  background-size: cover;
+  position: relative;
+}
+.special-heading {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: 800;
+  color: #030305;
+}
+.NIKE-SECTION,
+.ADIDAS-SECTION {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  width: 1040px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 1000;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.container .card {
+  width: 300px;
+  height: 280px;
+  position: relative;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: 1s;
+  float: left;
+}
+.container .card::before {
+  content: '';
+  position: absolute;
+  width: 101%;
+  height: 101%;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(0deg,#912eed,#337ebc);
+}
+.container .card:hover {
+  transform: rotatey(180deg);
+}
+.container .card:hover .back-face::before {
+  animation-play-state: running;
+}
+.container .card > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: -140px;
+  margin-left: -150px;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  z-index: 5;
+}
+.container .card .front-face {
+  z-index: 6;
+  background-size: cover;
+  background-position: center;
+}
+.container .card .back-face {
+  background-color: #0e0f11;
+  transform: rotateY(180deg);
+  overflow: hidden;
+  z-index: 5;
+  text-align: center;
+  padding: 30px;
+}
+.container .card .back-face h3 {
+  color: #ffffff;
+  position: relative;
+  z-index: 10;
+  font-size: 27px;
+}
+.container .card .back-face p {
+  margin-top: 5px;
+  color: #F5F5F5;
+  position: relative;
+  z-index: 10;
+  text-align: left;
+  margin-top: 20px;
+}
+.container .card .back-face p + p {
+  margin-left: 5px;
+}
+.container .card .back-face p span {
+  font-style: italic;
+  font-weight: 1000;
+  margin-right: 5px;
+}
+.container .card .back-face button {
+  border: none;
+  outline: none;
+  display: block;
+  width: 110px;
+  height: 35px;
+  position: relative;
+  z-index: 10;
+  position: absolute;
+  bottom: 20px;
+  transform: translate(-50%,0);
+  left: 50%;
+  border-radius: 20px;
+  background-color: #FFC370;
+}
+.container .card .back-face button a {
+  color: #0A0A0A;
+  display: block;
+  line-height: 35px;
+}
+.container .card .back-face::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 94%;
+  height: 94%;
+  transform: translate(-50%, -50%);
+  background-color: #030305;
+  border-radius: 20px;
+}
+.container .card .back-face::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -85%;
+  width: 100px;
+  height: 170%;
+  background-image: linear-gradient(0deg, #912eed, #337ebc);
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container .card .shoe-1 {
+  background-image: url(../images/shoe-1.jpg);
+}
+.container .card .shoe-2 {
+  background-image: url(../images/shoe-2.jpg);
+  background-position: bottom;
+}
+.container .card .shoe-3 {
+  background-image: url(../images/shoe-3.png);
+}
+.container .card .shoe-4 {
+  background-image: url(../images/shoe-4.png);
+}
+.container .card .shoe-5 {
+  background-image: url(../images/shoe-5.png);
+}
+.container .card .shoe-6 {
+  background-image: url(../images/shoe-6.png);
+}
+.container .card .shoe-7 {
+  background-image: url(../images/shoe-7.jpg);
+}
+.container .card .shoe-8 {
+  background-image: url(../images/shoe-8.jpg);
+  background-position: bottom;
+}
+.container .card .shoe-9 {
+  background-image: url(../images/shoe-9.jpg);
+}
+.container .card .shoe-10 {
+  background-image: url(../images/shoe-10.jpg);
+}
+.container .card .shoe-11 {
+  background-image: url(../images/shoe-11.jpg);
+}
+.container .card .shoe-12 {
+  background-image: url(../images/shoe-12.jpg);
+}
