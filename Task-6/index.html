@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <title>Watch Store</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <i class="fa-brands fa-slack"></i>
+        <h3>
+          ANafea
+          <p>smart wathes</p>
+        </h3>
+      </div>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li class="shop">
+          <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="menu">
+            <li class="category">
+              <a href="#">category <i class="fa-solid fa-chevron-up"></i></a>
+              <ul>
+                <li><a href="#">Men's Watches</a></li>
+                <li><a href="#">Women's Watches</a></li>
+                <li><a href="#">Luxury Watches</a></li>
+              </ul>
+            </li>
+            <li class="brand">
+              <a href="#">Brand <i class="fa-solid fa-chevron-up"></i></a>
+              <ul>
+                <li><a href="#"></a>Rolex</li>
+                <li><a href="#">Omega</a></li>
+                <li><a href="#">Casio</a></li>
+              </ul>
+            </li>
+            <li class="price">
+              <a href="#">Price <i class="fa-solid fa-chevron-up"></i></a>
+              <ul>
+                <li><a href="#">Under $50</a></li>
+                <li><a href="#">100−500</a></li>
+                <li><a href="#">$1,000+</a></li>
+              </ul>
+            </li>
+            <li class="style">
+              <a href="#">Style <i class="fa-solid fa-chevron-up"></i></a>
+              <ul>
+                <li><a href="#">Minimalist</a></li>
+                <li><a href="#">Classic</a></li>
+                <li><a href="#">Modern</a></li>
+              </ul>
+            </li>
+            <li class="material">
+              <a href="#">Material <i class="fa-solid fa-chevron-up"></i></a>
+              <ul>
+                <li><a href="#">Stainless Steel</a></li>
+                <li><a href="#">Leather Strap</a></li>
+                <li><a href="#">Titanium</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="shop">
+        <li class="search">
+          <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+        </li>
+        <li class="bag" id="bag">
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          <span class="total" id="total"></span>
+          <div class="bag-menu" id="bag_menu">
+            <div class="product product-1" id="product-1">
+              <div class="img img-1"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_1_count">0</span> Perspiciatis
+                    unde
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="399" id="price_1">$399.00</p>
+              </div>
+            </div>
+            <div class="product product-2" id="product-2">
+              <div class="img img-2"></div>
+              <div class="text">
+                <h6>
+                  <p><span class="count" id="p_2_count">0</span> omnis iste</p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="199" id="price_2">$199.00</p>
+              </div>
+            </div>
+            <div class="product product-3" id="product-3">
+              <div class="img img-3"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_3_count">0</span> accusantium dolore
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="299" id="price_3">$299.00</p>
+              </div>
+            </div>
+            <div class="product product-4" id="product-4">
+              <div class="img img-4"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_4_count">0</span> Rem aperiam
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="249" id="price_4">$249.00</p>
+              </div>
+            </div>
+            <div class="product product-5" id="product-5">
+              <div class="img img-5"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_5_count">0</span> Adipisci velit
+                    dolore
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="289" id="price_5">$289.00</p>
+              </div>
+            </div>
+            <div class="product product-6" id="product-6">
+              <div class="img img-6"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_6_count">0</span> Numquam eius
+                    
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="279" id="price_6">$279.00</p>
+              </div>
+            </div>
+            <div class="product product-7" id="product-7">
+              <div class="img img-7"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_7_count">0</span> Modi tempora
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="349" id="price_7">$349.00</p>
+              </div>
+            </div>
+            <div class="product product-8" id="product-8">
+              <div class="img img-8"></div>
+              <div class="text">
+                <h6>
+                  <p>
+                    <span class="count" id="p_8_count">0</span> Dolore magnam
+                  </p>
+                  <a href="#" class="delete"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></a>
+                </h6>
+                <p price="399" id="price_8">$399.00</p>
+              </div>
+            </div>
+            <div class="info">
+              <p>Subtotal <span id="sub_price" class="sub_price"></span></p>
+              <p>Shipping <span class="shipping">$7.00</span></p>
+              <p>Taxes <span class="taxes">$0.00</span></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="card">
+          <div class="image img-1"></div>
+          <div class="text">
+            <h3>Perspiciatis Unde</h3>
+            <p>$399.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-1">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-2"></div>
+          <div class="text">
+            <h3>Omnis Iste</h3>
+            <p>$199.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-2">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-3"></div>
+          <div class="text">
+            <h3>Accusantium Dolore</h3>
+            <p>$299.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-3">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-4"></div>
+          <div class="text">
+            <h3>Rem Aperiam</h3>
+            <p>$249.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-4">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-5"></div>
+          <div class="text">
+            <h3>Adipisci Velit</h3>
+            <p>$289.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-5">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-6"></div>
+          <div class="text">
+            <h3>Numquam Eius</h3>
+            <p>$279.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-6">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-7"></div>
+          <div class="text">
+            <h3>Modi Tempora</h3>
+            <p>$349.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-7">Add To Chart</a>
+        </div>
+        <div class="card">
+          <div class="image img-8"></div>
+          <div class="text">
+            <h3>Dolore Magnam</h3>
+            <p>$399.00</p>
+          </div>
+          <a href="#" class="btn" id="btn-8">Add To Chart</a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------- -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
