@@ -8,4 +8,5 @@
 - [Task 4](https://aknafea01.github.io/SEF/Task-4)  
 - [Task 5](https://aknafea01.github.io/SEF/Task-5)
 - [Task 6](https://aknafea01.github.io/SEF/Task-6)
+- [Task 7](https://aknafea01.github.io/SEF/Task-7)
 
