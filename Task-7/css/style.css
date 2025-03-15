@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 90%;
+  max-width: 470px;
+  background-color: #4182f1;
+  height: 560px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  padding: 23px;
+}
+.wrapper form header {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.wrapper .signup header {
+  color: #fff;
+  transition: 0.8s;
+}
+.wrapper.active .signup header {
+  color: #ffffff93;
+  cursor: pointer;
+}
+.wrapper .login header {
+  color: #00000049;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.wrapper.active .login header {
+  color: #000;
+  cursor: text;
+}
+.wrapper input:not([type="checkbox"]) {
+  height: 60px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.wrapper input:not([type="checkbox"])::placeholder {
+  font-size: 16px;
+  color: #888;
+}
+.wrapper .login {
+  position: absolute;
+  width: calc(100% + 350px);
+  height: 100%;
+  background-color: #fff;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -80px);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transition: 0.8s;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.wrapper.active .login {
+  transform: translate(-50%, -86%);
+  border-top-left-radius: 33%;
+  border-top-right-radius: 33%;
+}
+.wrapper .login input {
+  border: 1px solid #00000073;
+}
+.wrapper .login input:focus {
+  box-shadow: 1px 0 2px 0 #00000079;
+}
+.wrapper a {
+  align-self: flex-start;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  padding: 5px;
+}
+.wrapper a:hover {
+    text-decoration: underline;
+}
