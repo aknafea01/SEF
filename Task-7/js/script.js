@@ -42,6 +42,7 @@ btnsubmit.addEventListener('click',()=>{
 })
 
 btnlogin.addEventListener('click',()=>{
+    event.preventDefault(); // Stops form submission
     if( email_login.value != '' && password_login.value != ''){
         if(email_login.value == userEmail && password_login.value == userpassword){
             alert('Welcome Back ' + userName)
